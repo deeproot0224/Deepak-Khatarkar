@@ -107,11 +107,11 @@ hr.small {
 }
 /* Add this to the parent container holding both text and sidebar */
 .about-section {
-  margin-top: 20px;
+  margin-top: 40px;
   margin-bottom: 40px;
   display: flex; /* Creates the two-column structure */
   flex-direction: column; /* Stacks on mobile */
-  gap: 40px; /* Space between content and sidebar */
+  gap: 100px; /* Space between content and sidebar */
 }
 
 /* On desktop, switch to two columns */
@@ -135,6 +135,7 @@ hr.small {
 .about-photo-wrap {
       text-align: center;
       margin-bottom: 30px;
+      margin-top: 20px;
     }
 .about-photo-wrap img {
       width: 100%;
