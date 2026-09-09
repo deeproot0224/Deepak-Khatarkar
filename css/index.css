@@ -102,3 +102,6 @@
 .post-preview .post-entry {
   display: none;
 }
+hr.small {
+  display: none !important;
+}
