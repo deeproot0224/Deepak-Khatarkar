@@ -116,16 +116,16 @@ hr.small {
 
 /* On desktop, switch to two columns */
 @media (min-width: 992px) {
-  .about-section {
+.about-section {
     flex-direction: row; 
     align-items: flex-start;
   }
   
-  .about-text {
+.about-text {
     flex: 1; /* Takes up remaining space on the left */
   }
 
-  .about-sidebar { /* Assuming you wrap the photo in a new sidebar div */
+.about-sidebar { /* Assuming you wrap the photo in a new sidebar div */
     width: 280px; /* Fixed width for the sidebar */
     flex-shrink: 0;
   }
